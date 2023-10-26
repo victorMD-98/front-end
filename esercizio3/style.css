@@ -1,0 +1,49 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header img{
+    width: 200px;
+}
+main, footer{
+   margin-left: 30%; 
+    margin-right: 30%;
+}
+header{
+    text-align: center;
+}
+header p{
+    background-color: rgb(240, 232, 197);
+    border-top: 1px solid burlywood;
+    
+}
+main image{
+    text-shadow:4px 4px 8px #181717 ;    
+}
+header>p{
+    color: rgb(28, 75, 75);
+}
+span{
+    font-weight: 800;
+}
+
+
+p:nth-child(4)::first-line{
+    color: rgb(209, 130, 11);
+    font-weight: 800;  
+}
+a{
+    color: rgb(28, 75, 75);
+    font-weight: 800;
+}
+#pagina{
+    color: rgb(28, 75, 75); 
+    font-weight: 800;  
+}
+ol>li{
+    font-weight: 800;
+}
+figure{
+    text-align: center;
+    color: grey;
+    font-weight: 800;
+}
